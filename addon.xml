@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="screensaver.bdqturnoff" name="BDQ Turn Off" version="0.1" provider-name="schwartzmorn">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.ui.screensaver" library="default.py"/>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en_GB">Screensaver that handles stuff and things</summary>
+    <description lang="en_GB">
+Based on the Turn off screen saver. Switches the projector and the AV receiver on and off.
+    </description>
+    <license>GPL-2.0-or-later</license>
+    <email>schwartzmorn@gmail.com</email>
+    <source>https://github.com/Schwartzmorn/bdqturnoff</source>
+    <assets>
+      <icon>resources/media/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
